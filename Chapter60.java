@@ -1,8 +1,10 @@
 
 public class Chapter60 {
     public static void main(String[] args) {
+        ex1();
         ex2();
         ex22();
+        ex3();
     }
     public static void ex1() {
         int[] val = {0, 1, 2, 3}; 
@@ -33,6 +35,18 @@ public class Chapter60 {
     System.out.println( "New Array: " 
         + twice[0] + " " + twice[1] + " " + twice[2] + " " + twice[3] );
     }
-
+    public static void ex3() {
+    int[] valA   = { 13, -22,  82,  17}; 
+    int[] valB   = {-12,  24, -79, -13};
+    int[] sum    = {  0,   0,   0,   0};
+    
+    sum[0] = valA[0] + valB[0];
+    sum[1] = valA[1] + valB[1];
+    sum[2] = valA[2] + valB[2];
+    sum[3] = valA[3] + valB[3];
+ 
+    System.out.println( "sum: " 
+        + sum[0] + " " + sum[1] + " " + sum[2] + " " + sum[3] );   
+    }
 
 }

@@ -1,14 +1,14 @@
-public class box {
+public class Box {
     private final double width;
     private final double height;
     private final double length;
 
-    public box(double width, double height, double length){
+    public Box(double width, double height, double length){
         this.width=width;
         this.height=height;
         this.length= length;
     }
-    public box(double side){
+    public Box(double side){
         this.width=side;
         this.height=side;
         this.length= side;
@@ -29,4 +29,4 @@ public class box {
         return 2*(width*height+width*length*+height*length);
     }
 }
-}
+

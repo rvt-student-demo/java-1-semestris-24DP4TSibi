@@ -1,5 +1,5 @@
 
-public class Chapter60 {
+public class Connecticut {
     public static void main(String[] args) {
         ex1();
         ex2();
